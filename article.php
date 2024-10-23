@@ -34,7 +34,7 @@ if (!isset($_SESSION['username'])) {
             echo '<p>Datum objave: ' . $selected->date . '</p>';
             echo '<a href="index.php">Nazaj</a>';
         } else {
-            echo '<p>Opozorilo: Novica s podanim ID-jem ni bila najdena.</p>';
+            echo '<p>Opozorilo: Novica s podanim ID-jem ni bila najdena!</p>';
         }
     } else {
         echo '<p>Opozorilo: Manjkajoči parameter "id" v URL naslovu.</p>';
