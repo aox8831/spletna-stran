@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Prijava</title>
 </head>
 <body>
-    <h1>Prijava</h1>
+    <h1>Prijava v našo spletno stran</h1>
 
     <?php
     if (isset($login_error)) {
